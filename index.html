@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lange="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Retirement Calculator</title>
+  </head>
+  <body>
+
+    <h2>Retirement Calculator</h2>
+
+    <div id="retirement-calculator">
+      <label>Initial Amount:</label><br>
+      <input type="text" id="principal" value="10000"><br>
+      <label>Monthly Deposit:</label><br>
+      <input type="text" id="monthly-investment" value="2000"><br>
+      <label>Years:</label><br>
+      <input type="text" id="years" value="30"><br>
+      <label>Interest Rate:</label><br>
+      <input type="text" id="interest-rate" value="6.50"><br>
+
+      <p id="error">&nbsp;</p>
+
+      <p><button type="submit" id="calculate">Calculate</button></p>
+
+      <hr>
+
+      <h3>Results:</h3>
+
+      <div id="outputs">
+        <label>Total:</label><br>
+        <span id="total"></span><br>
+      </div><!-- #outputs -->
+
+    </div><!-- #calculator -->
+
+    <script src="retirement-calculator.js"></script>
+
+  </body>
+</html>
